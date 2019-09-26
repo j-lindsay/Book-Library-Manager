@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView layoutX="38.0" layoutY="37.0" prefHeight="581.0" prefWidth="791.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="451.0" AnchorPane.topAnchor="37.0">
+              <columns>
+                <TableColumn prefWidth="131.8" text="ID" />
+                <TableColumn prefWidth="131.8" text="ISBN" />
+                  <TableColumn prefWidth="131.8" text="TITLE" />
+                  <TableColumn prefWidth="131.8" text="AUTHOR" />
+                  <TableColumn prefWidth="131.8" text="GENRE" />
+                  <TableColumn prefWidth="131.8" text="LOAN STATUS" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
