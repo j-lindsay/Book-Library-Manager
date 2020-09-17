@@ -17,6 +17,3 @@ BEGIN
 	INSERT INTO authenticated_users(userText, passText) VALUES (userText, passText);
 END $$
 DELIMITER ;
-
-CALL addUser("queenjauvier", "Cowtipper_21_42");
-SELECT * FROM authenticated_users WHERE userText = "queenjauvier" AND passText = "Cowtipper_21_42";
