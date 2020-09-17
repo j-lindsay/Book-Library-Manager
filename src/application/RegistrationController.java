@@ -29,7 +29,7 @@ public class RegistrationController {
 	public void register(ActionEvent event) {
 		String url = "jdbc:mysql://localhost:3306/full_lib";
 		String username = "myuser";
-		String password = "Cowtipper_21_42";
+		String password = "example";
 		String sql = "CALL addUser(\"" + usernameTxt.getText() + "\", \"" + passwordTxt.getText() + "\");";
 		
 		
