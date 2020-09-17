@@ -207,13 +207,3 @@ BEGIN
 	END IF;
 END $$
 DELIMITER ;
-
-/*
-CALL addBook(CURRENT_TIMESTAMP, "home", "482376452160", "Foo", 2, "Josh Lindsay", "American History", FALSE);
-CALL addBook(CURRENT_TIMESTAMP, "office", "345987345393", "Swing", 1, "Bill Sharpton", "Philosophy", TRUE);
-CALL addBook(CURRENT_TIMESTAMP, "home", "109023498798", "Football", 3, "Paxton Lynch", NULL, TRUE);
-CALL addBook(CURRENT_TIMESTAMP, "home/office", "349583956533", "DSM", 1, "Josh Lindsay", "American History", TRUE);
-CALL addBook(CURRENT_TIMESTAMP, "home/office", "349515856533", "DSM", 1, "Josh Lindsay", "American History", TRUE);
-
-CALL findQuantity();
-*/
